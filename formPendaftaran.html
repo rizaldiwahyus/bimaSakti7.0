@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+    <link rel="stylesheet" href="style.css" />
+
+    <title>BIMASAKTI 7.0</title>
+    <style></style>
+  </head>
+  <body>
+    <!-- <div id="bg">
+      <img src="asset/bgBimaSakti7.0.png" alt="" />
+    </div> -->
+    <div class="judul text-center m-5 text-light">
+      <h2>Halo, Selamat Datang di</h2>
+      <h1>Open Recruitment Staff BIMA SAKTI 7.0</h1>
+    </div>
+    <div class="container w-75 p-5 mb-5">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="text-start">
+            <h4 class="subtitle-1">Guidebook dan Form Komitmen</h4>
+            <p>File Guidebook dan Form Pernyataan dapat diunduh di bawah ini</p>
+          </div>
+          <a href="https://bit.ly/Guidebook-FormPernyataan" target="_blank" class=""> <button type="button" class="btn btn-light mb-3">Disini</button></a>
+        </div>
+        <!-- IDENTITAS -->
+        <div class="col-md-12 mt-3">
+          <h4 class="subtitle-1">Identitas</h4>
+        </div>
+        <div class="col-md-6 mb-1">
+          <label class="form-label">Nama lengkap <span class="text-danger">*</span></label>
+          <input type="text" class="form-control" required name="noPhone" />
+        </div>
+        <div class="col-md-6 mb-1">
+          <label class="form-label">NIM <span class="text-danger">*</span></label>
+          <input type="number" class="form-control" required name="noPhone" />
+        </div>
+        <div class="col-md-6 mb-1">
+          <label class="form-label">Jenis Kelamin<span class="text-danger">*</span></label>
+          <select class="form-select" aria-label="Default select example " required>
+            <option value="Perempuan">Perempuan</option>
+            <option value="Laki-laki">Laki-laki</option>
+          </select>
+        </div>
+        <div class="col-md-6 mb-1">
+          <label class="form-label">Tempat, Tanggal Lahir<span class="text-danger">*</span></label>
+          <input type="text" class="form-control" required name="TTL" placeholder="tempat, tanggal-bulan-tahun" />
+        </div>
+        <div class="col-md-6 mb-1">
+          <label class="form-label">Email <span class="text-danger">*</span></label>
+          <input type="email" class="form-control" required name="noPhone" />
+        </div>
+        <div class="col-md-6 mb-1">
+          <label class="form-label">Alamat di Malang / Alamat asal<span class="note"> (bila belum di malang)</span> <span class="text-danger">*</span></label>
+          <input type="text" class="form-control" required name="noPhone" />
+        </div>
+        <div class="col-md-6 mb-1">
+          <label class="form-label">No Handphone <span class="text-danger">*</span></label>
+          <input type="email" class="form-control" required name="noPhone" />
+        </div>
+        <div class="col-md-6 mb-1">
+          <label class="form-label">ID LINE <span class="text-danger">*</span></label>
+          <input type="email" class="form-control" required name="noPhone" />
+        </div>
+        <!-- AKHIR IDENTITAS -->
+
+        <!-- PILIHAN DIVISI -->
+        <div class="col-md-12 mt-3">
+          <h4 class="subtitle-1">Pilihan Divisi</h4>
+        </div>
+
+        <div class="col-md-6 mb-3">
+          <label class="form-label">Pilihan Divisi 1 <span class="note"> Wajib</span><span class="text-danger">*</span></label>
+
+          <select class="form-select" name="dept1">
+            <option value="Acara">Acara</option>
+            <option value="Pendamping">Humas</option>
+            <option value="Humas">DDM</option>
+            <option value="DDM">Pengajar</option>
+            <option value="Kemankes">Komdanus</option>
+            <option value="Komdanus">Perkap</option>
+            <option value="PJL">Creative</option>
+          </select>
+        </div>
+
+        <div class="col-md-6 mb-3">
+          <label class="form-label">Pilihan Divisi 2 (Opsional)</label>
+          <select class="form-select" name="dept2">
+            <option value="Acara">Acara</option>
+            <option value="Pendamping">Humas</option>
+            <option value="Humas">DDM</option>
+            <option value="DDM">Pengajar</option>
+            <option value="Kemankes">Komdanus</option>
+            <option value="Komdanus">Perkap</option>
+            <option value="PJL">Creative</option>
+          </select>
+        </div>
+
+        <div class="col-md-6 mb-3">
+          <textarea class="form-control" rows="5" placeholder="Alasan memilih divisi pertama" name="alasan1"></textarea>
+        </div>
+
+        <div class="col-md-6 mb-3">
+          <textarea class="form-control" rows="5" placeholder="Alasan memilih divisi kedua" name="alasan2"></textarea>
+        </div>
+        <!-- AKHIR PEMILIHAN DIVISI -->
+
+        <!-- PENGALAMAN -->
+        <div class="col-md-12 mt-3">
+          <h4 class="subtitle-1">Pengalaman</h4>
+        </div>
+        <!-- Pengalaman 1 -->
+        <div class="col-md-6">
+          <p class="text-center">Pengalaman 1</p>
+          <div class="mb-2">
+            <input type="text" class="form-control" name="jabatan1" placeholder="Jabatan" aria-label="Jabatan1" />
+          </div>
+          <div class="mb-2">
+            <input type="text" class="form-control" name="kegiatan1" placeholder="Kegiatan atau Organisasi" aria-label="kegiatan1" />
+          </div>
+          <div class="mb-3">
+            <input type="number" name="tahun1" class="form-control" placeholder="Tahun Organisasi" aria-label="tahun1" min="2000" max="2022" />
+          </div>
+        </div>
+        <!-- Pengalaman 2 -->
+        <div class="col-md-6 mb-3">
+          <p class="text-center">Pengalaman 2</p>
+          <div class="mb-2">
+            <input type="text" class="form-control" name="jabatan2" placeholder="Jabatan" aria-label="Jabatan2" />
+          </div>
+          <div class="mb-2">
+            <input type="text" class="form-control" name="kegiatan1" placeholder="Kegiatan atau Organisasi" aria-label="kegiatan2" />
+          </div>
+          <div class="mb-2">
+            <input type="number" name="tahun2" class="form-control" placeholder="Tahun Organisasi" aria-label="tahun2" min="2000" max="2022" />
+          </div>
+        </div>
+        <!-- Pengalaman 3 -->
+        <div class="col-md-6">
+          <p class="text-center">Pengalaman 3</p>
+          <div class="mb-2">
+            <input type="text" class="form-control" name="jabatan3" placeholder="Jabatan" aria-label="Jabatan3" />
+          </div>
+          <div class="mb-2">
+            <input type="text" class="form-control" name="kegiatan3" placeholder="Kegiatan atau Organisasi" aria-label="kegiatan3" />
+          </div>
+          <div class="mb-2">
+            <input type="number" name="tahun3" class="form-control" placeholder="Tahun Organisasi" aria-label="tahun3" min="2000" max="2022" />
+          </div>
+        </div>
+        <!-- Pengalaman 4 -->
+        <div class="col-md-6 mb-3">
+          <p class="text-center">Pengalaman 4</p>
+          <div class="mb-2">
+            <input type="text" class="form-control" name="jabatan4" placeholder="Jabatan" aria-label="Jabatan4" />
+          </div>
+          <div class="mb-2">
+            <input type="text" class="form-control" name="kegiatan4" placeholder="Kegiatan atau Organisasi" aria-label="kegiatan4" />
+          </div>
+          <div class="mb-2">
+            <input type="number" name="tahun4" class="form-control" placeholder="Tahun Organisasi" aria-label="tahun4" min="2000" max="2022" />
+          </div>
+        </div>
+        <!-- Pengalaman 5 -->
+        <div class="col-md-6 mb-3">
+          <p class="text-center">Pengalaman 5</p>
+          <div class="mb-2">
+            <input type="text" class="form-control" name="jabatan5" placeholder="Jabatan" aria-label="Jabatan5" />
+          </div>
+          <div class="mb-2">
+            <input type="text" class="form-control" name="kegiatan5" placeholder="Kegiatan atau Organisasi" aria-label="kegiatan5" />
+          </div>
+          <div class="mb-2">
+            <input type="number" name="tahun5" class="form-control" placeholder="Tahun Organisasi" aria-label="tahun5" min="2000" max="2022" />
+          </div>
+        </div>
+        <!-- Pengalaman 6 -->
+        <div class="col-md-6">
+          <p class="text-center">Pengalaman 6</p>
+          <div class="mb-2">
+            <input type="text" class="form-control" name="jabatan6" placeholder="Jabatan" aria-label="Jabatan6" />
+          </div>
+          <div class="mb-2">
+            <input type="text" class="form-control" name="kegiatan6" placeholder="Kegiatan atau Organisasi" aria-label="kegiata6" />
+          </div>
+          <div class="mb-2">
+            <input type="number" name="tahun6" class="form-control" placeholder="Tahun Organisasi" aria-label="tahun6" min="2000" max="2022" />
+          </div>
+        </div>
+        <!-- AKHIR DARI PENGALAMAN -->
+
+        <!-- KELEBIHAN DAN KEKURANGAN -->
+        <div class="col-md-12 mt-3">
+          <h4 class="subtitle-1">Kelebihan & Kekurangan</h4>
+        </div>
+        <!-- Kelebihan 1 -->
+        <div class="col-md-6">
+          <p class="text-center">Kelebihan 1</p>
+          <div class="mb-2">
+            <input type="text" class="form-control" name="Kelebihan1" placeholder="Kelebihan" aria-label="Kelebihan1" />
+          </div>
+          <div class="mb-2">
+            <input type="text" class="form-control" name="descKelebihan1" placeholder="Penjelasan" aria-label="descKelebihan1" />
+          </div>
+        </div>
+        <!-- Kelebihan 2 -->
+        <div class="col-md-6">
+          <p class="text-center">Kelebihan 2</p>
+          <div class="mb-2">
+            <input type="text" class="form-control" name="Kelebihan2" placeholder="Kelebihan" aria-label="Kelebihan2" />
+          </div>
+          <div class="mb-2">
+            <input type="text" class="form-control" name="descKelebihan2" placeholder="Penjelasan" aria-label="descKelebihan2" />
+          </div>
+        </div>
+        <!-- Kelebihan 3 -->
+        <div class="col-md-6">
+          <p class="text-center">Kelebihan 3</p>
+          <div class="mb-2">
+            <input type="text" class="form-control" name="Kelebihan3" placeholder="Kelebihan" aria-label="Kelebihan3" />
+          </div>
+          <div class="mb-2">
+            <input type="text" class="form-control" name="descKelebihan3" placeholder="Penjelasan" aria-label="descKelebihan3" />
+          </div>
+        </div>
+        <!-- Kelebihan 4 -->
+        <div class="col-md-6">
+          <p class="text-center">Kelebihan 4</p>
+          <div class="mb-2">
+            <input type="text" class="form-control" name="Kelebihan4" placeholder="Kelebihan" aria-label="Kelebihan4" />
+          </div>
+          <div class="mb-2">
+            <input type="text" class="form-control" name="descKelebihan4" placeholder="Penjelasan" aria-label="descKelebihan4" />
+          </div>
+        </div>
+        <!-- AKHIR DARI KELEBIHAN -->
+        <!-- KEKURANGAN -->
+        <!-- kekkuragnan 1 -->
+        <div class="col-md-6 mt-5">
+          <p class="text-center">Kekurangan 1</p>
+          <div class="mb-2">
+            <input type="text" class="form-control" name="kekurangan1" placeholder="Kelebihan" aria-label="kekurangan1" />
+          </div>
+          <div class="mb-2">
+            <input type="text" class="form-control" name="desckekurangan1" placeholder="Penjelasan" aria-label="desckekurangan1" />
+          </div>
+        </div>
+        <!-- kekkuragnan 2 -->
+        <div class="col-md-6 mt-5">
+          <p class="text-center">Kekurangan 2</p>
+          <div class="mb-2">
+            <input type="text" class="form-control" name="kekurangan2" placeholder="Kelebihan" aria-label="kekurangan2" />
+          </div>
+          <div class="mb-2">
+            <input type="text" class="form-control" name="desckekurangan2" placeholder="Penjelasan" aria-label="desckekurangan2" />
+          </div>
+        </div>
+        <!-- kekkuragnan 3 -->
+        <div class="col-md-6">
+          <p class="text-center">Kekurangan 3</p>
+          <div class="mb-2">
+            <input type="text" class="form-control" name="kekurangan3" placeholder="Kelebihan" aria-label="kekurangan3" />
+          </div>
+          <div class="mb-2">
+            <input type="text" class="form-control" name="desckekurangan3" placeholder="Penjelasan" aria-label="desckekurangan3" />
+          </div>
+        </div>
+        <!-- kekkuragnan 4 -->
+        <div class="col-md-6">
+          <p class="text-center">Kekurangan 4</p>
+          <div class="mb-2">
+            <input type="text" class="form-control" name="kekurangan4" placeholder="Kelebihan" aria-label="kekurangan4" />
+          </div>
+          <div class="mb-2">
+            <input type="text" class="form-control" name="desckekurangan4" placeholder="Penjelasan" aria-label="desckekurangan4" />
+          </div>
+        </div>
+        <!-- AKHIR DARI KEKURANGAN -->
+        <!-- ALASAN MEMILIH -->
+        <div class="col-md-12 mb-3">
+          <label class="form-label mt-3">Mengapa anda cocok diterima di Bima Sakti 7.0?</label>
+          <textarea class="form-control" rows="5" placeholder="ketikkan disini" name="alasan1"></textarea>
+        </div>
+        <!-- AKHIR ALASAN MEMILIH -->
+
+        <!-- LINK PENGUMPULAN -->
+        <div class="col-md-12 mt-3">
+          <h4 class="subtitle-1">Link Pengumpulan</h4>
+        </div>
+
+        <div class="col-md-12">
+          <label class="form-label">Link Gdrive <span class="text-danger">*</span></label>
+          <div class="note">
+            <p class="mb-0">Link Google Drive dengan akses public berisi:</p>
+            <ul>
+              <li>File scan surat komitmen yang telah diisi, format PDF.</li>
+              <li>File scan KTM/KTMS, format PDF.</li>
+              <li>Softfile foto diri formal 4x6, format JPG/PNG.</li>
+              <li>Folder portofolio design (khusus pendaftar divisi DDM)</li>
+            </ul>
+            <p class="mb-0">Format penamaan folder Google Drive:</p>
+            <ul>
+              <li>PilihanDivisi1_PilihanDivisi2_NamaLengkap</li>
+            </ul>
+          </div>
+          <input type="link" class="form-control" required name="linkGdrive" placeholder="Masukkan link gdrive" />
+        </div>
+      </div>
+    </div>
+    <div class="text-center mb-5">
+      <p>Made with <b>❤</b> by P2S EMSI 2022</p>
+    </div>
+    <script script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+  </body>
+</html>
