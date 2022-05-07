@@ -1,18 +1,19 @@
 body {
-  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-family: sans-serif;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   background-image: url(asset/bgBimaSakti7.0.png);
   background-attachment: fixed;
-
   color: white;
 }
 body .container {
   background-color: #1a1a40;
   border-radius: 10px;
   border-top: 5px solid #270082;
-  font-family: sans-serif;
+}
+body .judul {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
 }
 .subtitle-1 {
   border-radius: 1.5rem;
