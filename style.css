@@ -20,7 +20,7 @@ body .container {
   width: fit-content;
   padding: 5px 20px;
   color: white;
-  font-weight: bold;
+  /* font-weight: ; */
   margin-left: -9px;
 }
 .note {
