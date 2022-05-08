@@ -87,7 +87,7 @@
           <div class="col-md-6 mb-3">
             <label class="form-label">Pilihan Divisi 1 <span class="note"> Wajib</span><span class="text-danger">*</span></label>
 
-            <select class="form-select" name="dept1">
+            <select class="form-select" name="dept1" required>
               <option value="Acara">Acara</option>
               <option value="Pendamping">Humas</option>
               <option value="Humas">DDM</option>
@@ -99,8 +99,8 @@
           </div>
 
           <div class="col-md-6 mb-3">
-            <label class="form-label">Pilihan Divisi 2 <span class="note">(Opsional)</span></label>
-            <select class="form-select" name="dept2">
+            <label class="form-label">Pilihan Divisi 2 <span class="note">Wajib</span><span class="text-danger">*</span></label>
+            <select class="form-select" name="dept2" required>
               <option value="Acara">Acara</option>
               <option value="Pendamping">Humas</option>
               <option value="Humas">DDM</option>
@@ -210,7 +210,7 @@
           </div>
           <!-- Kelebihan 1 -->
           <div class="kelebihan col-md-6">
-            <p class="text-start mb-0">Kelebihan</p>
+            <p class="text-start mb-0">Kelebihan<span class="text-danger">*</span></p>
             <div class="note mb-2">
               Format penulisan <strong>KELEBIHAN, PENJELASAN</strong> contoh : <br />
               - Baik dalam multitasking, hal tersebut menjadi kelebihan saya karena saya termasuk orang yang mudah fokus. <br />
@@ -218,11 +218,11 @@
               - Kelebihan C <br />
             </div>
             <div class="col-md-12 mb-3">
-              <textarea class="form-control" rows="5" placeholder="ketikkan kelebihan disini" name="kelebihan"></textarea>
+              <textarea class="form-control" rows="5" placeholder="ketikkan kelebihan disini" name="kelebihan" required></textarea>
             </div>
           </div>
           <div class="kekurangan col-md-6">
-            <p class="text-start mb-0">Kekurangan</p>
+            <p class="text-start mb-0">Kekurangan<span class="text-danger">*</span></p>
             <div class="note mb-2">
               Format penulisan <strong>KEKURANGAN, PENJELASAN</strong> contoh : <br />
               - Time management buruk, hal tersebut termasuk ke dalam kekurangan saya karena saya sulit untuk menentukan prioritas <br />
@@ -230,14 +230,14 @@
               - Kekurangan C <br />
             </div>
             <div class="col-md-12 mb-3">
-              <textarea class="form-control" rows="5" placeholder="ketikkan kekurangan disini" name="kekurangan"></textarea>
+              <textarea class="form-control" rows="5" placeholder="ketikkan kekurangan disini" name="kekurangan" required></textarea>
             </div>
           </div>
           <!-- AKHIR DARI KELEBIHAN DAN KEKURANGAN -->
           <!-- ALASAN MEMILIH -->
           <div class="col-md-12 mb-3">
-            <label class="form-label mt-3">Mengapa anda cocok diterima di Bima Sakti 7.0?</label>
-            <textarea class="form-control" rows="5" placeholder="ketikkan disini" name="alasan1"></textarea>
+            <label class="form-label mt-3">Mengapa anda cocok diterima di Bima Sakti 7.0?<span class="text-danger">*</span></label>
+            <textarea class="form-control" rows="5" placeholder="ketikkan disini" name="alasan1" required></textarea>
           </div>
           <!-- AKHIR ALASAN MEMILIH -->
 
